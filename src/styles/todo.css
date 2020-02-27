@@ -1,3 +1,29 @@
+html {
+  background: grey;
+}
+
 h1 {
-  color: beige;
+  color: red;
+  border: 1px solid black;
+  width: 100px;
+  position: relative;
+  left: 140px;
+}
+
+.wrapper {
+  position: relative;
+  justify-content: center;
+  top: 200px;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  border: 1px solid red;
+  width: 400px;
+  height: 500px;
+  overflow: auto;
+  background: pink;
+}
+
+.wrapper:focus {
+  outline: none;
 }
